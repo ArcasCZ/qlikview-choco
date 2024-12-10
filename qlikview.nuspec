@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>qlikview</id>
+    <version>12.90.20100</version>
+    <packageSourceUrl>https://github.com/ArcasCZ/qlikview-choco</packageSourceUrl>
+    <owners>Vojtech.Olej</owners>
+    <title>qlikview (Install)</title>
+    <authors>Vojtech.Olej</authors>
+    <projectUrl>https://www.qlik.com/us/products/qlikview/</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/ArcasCZ/qlikview-choco/master/icons/qlikview.png</iconUrl>
+    <projectSourceUrl>https://github.com/qlik-download/qlikview</projectSourceUrl>
+    <tags>qlikview qlik view</tags>
+    <description>QlikView is a business intelligence tool that allows users to create interactive dashboards and reports, uncovering hidden data relationships with its Associative Engine. It's known for its user-friendly interface and real-time data analysis capabilities.</description>
+    <summary>QlikView App</summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://community.qlik.com/t5/b-ReleaseNotes/QlikView/pd-p/qlikView</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
